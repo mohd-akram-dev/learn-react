@@ -45,6 +45,7 @@ npm install -D parcel
   ```
   npx parcel <entry_point>
   ```
+
   - For production build :
   ```
   npx parcel build <entry_point>
@@ -105,7 +106,7 @@ In our code we shouldn't add the files, which we can re-generate in future e.g, 
 
 A: Both of these files have the same format, and perform similar functions in the root of a project. The difference is that `package-lock. json` cannot be published, and it will be ignored if found in any place other than the root project.
 
-The package. json is used for more than dependencies - like defining project properties, description, author & license information, scripts, etc. The package-lock. json is solely used to lock dependencies to a specific version number.
+The `package. json` is used for more than dependencies - like defining project properties, description, author & license information, scripts, etc. The package-lock. json is solely used to lock dependencies to a specific version number.
 
 ## Q: Why should I not modify `package-lock.json`?
 
