@@ -1,5 +1,9 @@
 {
   "editor.formatOnSave": true,
   "files.autoSave": "onFocusChange",
-  "markdown.validate.enabled": true
+  "markdown.validate.enabled": true,
+  "emmet.triggerExpansionOnTab": true,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  }
 }
