@@ -3,6 +3,7 @@ import RestaurantCard from "./RestaurantCard";
 import { RestaurantSlider } from "./RestaurantSlider";
 import Shimmer from "./Shimmer";
 import { Link } from "react-router-dom";
+import useOnlineStatus from "../utils/useOnlineStatus";
 
 export const Body = () => {
   const [list, setList] = useState([]);
@@ -29,10 +30,21 @@ export const Body = () => {
     setSliderData(restaurants);
     setCardData(restaurants);
   };
+  const onlineStatus = useOnlineStatus();
+  console.log(onlineStatus);
+
+  if (onlineStatus === false) {
+    return (
+      <div className="ofline-card">
+        <h1>No Internet Connection</h1>
+      </div>
+    );
+  }
 
   if (sliderData.length === 0) {
     return <Shimmer />;
   }
+
   return (
     <div className="body">
       <div className="search">
