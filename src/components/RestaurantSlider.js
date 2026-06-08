@@ -44,15 +44,15 @@ export const RestaurantSlider = ({ resData }) => {
         {resData.map((restaurant) => {
           return (
             <div key={restaurant.id}>
-              <div className="card">
+              <div className="m-2 p-2 bg-gray-300 rounded-2xl h-85">
                 <img
                   src={CDN_URL + restaurant.cloudinaryImageId}
                   alt={restaurant.name}
-                  className="card-img"
+                  className="w-80 h-40 rounded-2xl"
                 />
 
-                <div className="card-content">
-                  <h3>{restaurant.name}</h3>
+                <div className="m-3 p-3">
+                  <h3 className="text-sm font-bold">{restaurant.name}</h3>
                   <p>{restaurant.cuisines.join(", ")}</p>
                   <span>⭐ {restaurant.avgRating}</span>
                 </div>
