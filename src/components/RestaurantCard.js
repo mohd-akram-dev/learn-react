@@ -18,7 +18,7 @@ const RestaurantCard = ({ resData }) => {
       border-teal-200
       border-2
       bg-gray-300 
-      hover:bg-white
+      hover:bg-white 
       rounded-2xl
       hover:shadow-lg
       hover:border-teal-500
