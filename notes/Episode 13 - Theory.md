@@ -26,6 +26,9 @@
 - Configure `parcel` config file, To disable `Babel transpilation` in Parcel, override the default Parcel config for JavaScript to exclude `@parcel/transformer-babel`.
 - Jest - `npx create-jest`
 - install `jsdom library` using `npm install --save-dev jest-environment-jsdom`
+- `npm i -D @babel/preset-react`
+- `npm i -D @testing-library/jest-dom`
+- You can write function using `test()` or `it()`
 
 # Setting up Testing in our app
 
