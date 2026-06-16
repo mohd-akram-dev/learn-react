@@ -1,0 +1,79 @@
+{
+  "id": "1313574",
+  "name": "Haldiram's",
+  "city": "39",
+  "slugs": {
+    "restaurant": "haldiram's-kakadeo-kakadeo",
+    "city": "kanpur"
+  },
+  "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2026/5/20/efe52bdf-1d0a-4791-9787-3ae01bc3544f_1313574.JPG",
+  "address": "GF&FF PLOT NO 120/563 SHIVAJI NAGAR ,LAJPAT NAGAR ROAD ,NAGAR NIGAM FOOD SAFETY ZONE-21,Kanpur Nagar,Uttar Pradesh-208005",
+  "locality": "Shivaji Nagar",
+  "areaName": "Kakadeo",
+  "costForTwo": "45000",
+  "costForTwoMessage": "₹450 FOR TWO",
+  "cuisines": [
+    "Continental",
+    "South Indian",
+    "Beverages",
+    "Sweets",
+    "North Indian",
+    "Desserts",
+    "Street Food",
+    "Chinese"
+  ],
+  "avgRating": 4.2,
+  "feeDetails": {},
+  "parentId": "377669",
+  "avgRatingString": "4.2",
+  "totalRatingsString": "153",
+  "promoted": true,
+  "adTrackingId": "cid=d07103b9-986b-433f-8e7d-1acdcd7cee35~p=0~adgrpid=d07103b9-986b-433f-8e7d-1acdcd7cee35#ag1~mp=SWIGGY_IN~bl=FOOD~aet=RESTAURANT~aeid=1313574~plpr=SEARCH#RESTAURANT~st=best restaurants~eid=ca0c3708-62bd-44a2-a0ea-9358b0f3c247~srvts=1781524565999",
+  "sla": {
+    "deliveryTime": 51,
+    "minDeliveryTime": 50,
+    "maxDeliveryTime": 60,
+    "lastMileTravel": 9.7,
+    "serviceability": "SERVICEABLE",
+    "rainMode": "RAIN_MODE_NONE",
+    "slaString": "50-60 MINS",
+    "lastMileTravelString": "9.7 km",
+    "iconType": "ICON_TYPE_EMPTY"
+  },
+  "availability": {
+    "opened": true,
+    "restaurantClosedMeta": {}
+  },
+  "badges": {},
+  "aggregatedDiscountInfoV3": {
+    "header": "ITEMS",
+    "subHeader": "AT ₹107",
+    "logoCtx": {
+      "text": "BENEFITS"
+    }
+  },
+  "ratingSlab": "RATING_SLAB_5",
+  "orderabilityCommunication": {
+    "title": {},
+    "subTitle": {},
+    "message": {},
+    "customIcon": {},
+    "commsStyling": {}
+  },
+  "cartOrderabilityNudgeBanner": {
+    "parameters": {},
+    "presentation": {}
+  },
+  "externalRatings": {
+    "aggregatedRating": {
+      "rating": "--"
+    }
+  },
+  "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+  "featuredSectionInfo": {
+    "sectionTitle": "More"
+  },
+  "campaignId": "d07103b9-986b-433f-8e7d-1acdcd7cee35",
+  "showEoOffer": true,
+  "priceComparisonComms": {}
+}

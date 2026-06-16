@@ -41,7 +41,7 @@ const RestaurantCard = ({ resData }) => {
   );
 };
 
-export const withPromotedLabel = (RestaurantCard) => {
+export const withPromotedLabel = () => {
   return (props) => {
     return (
       <>
